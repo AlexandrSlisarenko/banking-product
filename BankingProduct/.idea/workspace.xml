@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1970f3-b681-4ded-b5d3-a6f1ced5b1ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/entity/BaseBankProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/entity/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/entity/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/entity/DebitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/entity/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/exceptions/CreditRestrictionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/exceptions/InsufficientFundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/interfaces/BalanceInquirable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/interfaces/Closable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/interfaces/Depositable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/slisarenko/model/interfaces/Withdrawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/slisarenko/fixtures/BankProductFixtures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/slisarenko/tests/BankProductContractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/slisarenko/tests/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/slisarenko/tests/DebitCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/slisarenko/tests/DepositTest.java" afterDir="false" />
+    <list default="true" id="7f1970f3-b681-4ded-b5d3-a6f1ced5b1ac" name="Changes" comment="StartProject">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,12 +173,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793205472288</updated>
-      <workItem from="1793205473259" duration="16907000" />
+      <workItem from="1793205473259" duration="18538000" />
     </task>
+    <task id="LOCAL-00001" summary="StartProject">
+      <option name="closed" value="true" />
+      <created>1793223007195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793223007195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="StartProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="StartProject" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
