@@ -1,0 +1,17 @@
+{
+  "location": {
+    "name": "Paris",
+    "region": "Ile-de-France",
+    "country": "France",
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  "current": {
+    "last_updated": "2026-10-29 13:30",
+    "temp_c": 14.0,
+    "temp_f": 57.2,
+    "humidity": 65,
+    "wind_kph": 9.0,
+    "pressure_mb": 1015.0
+  }
+}

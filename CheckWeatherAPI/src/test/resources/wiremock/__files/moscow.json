@@ -1,0 +1,17 @@
+{
+  "location": {
+    "name": "Moscow",
+    "region": "Moscow City",
+    "country": "Russia",
+    "lat": 55.7558,
+    "lon": 37.6173
+  },
+  "current": {
+    "last_updated": "2026-10-29 14:00",
+    "temp_c": 2.0,
+    "temp_f": 35.6,
+    "humidity": 85,
+    "wind_kph": 18.0,
+    "pressure_mb": 1020.0
+  }
+}

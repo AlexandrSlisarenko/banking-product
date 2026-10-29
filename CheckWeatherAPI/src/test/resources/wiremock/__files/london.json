@@ -1,0 +1,17 @@
+{
+  "location": {
+    "name": "London",
+    "region": "City of London, Greater London",
+    "country": "United Kingdom",
+    "lat": 51.5171,
+    "lon": -0.1062
+  },
+  "current": {
+    "last_updated": "2026-10-29 12:00",
+    "temp_c": 12.5,
+    "temp_f": 54.5,
+    "humidity": 78,
+    "wind_kph": 14.4,
+    "pressure_mb": 1012.0
+  }
+}

@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f1970f3-b681-4ded-b5d3-a6f1ced5b1ac" name="Changes" comment="StartProject">
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/client/WeatherApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/StubRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/WireMockConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/model/ApiErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/model/CurrentWeatherResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/steps/NegativeWeatherSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/steps/PositiveWeatherSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/tests/RunCucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/util/WeatherComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/features/negative_weather.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/features/positive_weather.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/berlin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_1002.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_1003.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_1006.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_2007.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/london.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/moscow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/paris.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CheckWeatherAPI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793205472288</updated>
-      <workItem from="1793205473259" duration="18538000" />
+      <workItem from="1793205473259" duration="19914000" />
     </task>
     <task id="LOCAL-00001" summary="StartProject">
       <option name="closed" value="true" />

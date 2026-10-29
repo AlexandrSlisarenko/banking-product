@@ -1,0 +1,17 @@
+{
+  "location": {
+    "name": "Berlin",
+    "region": "Berlin",
+    "country": "Germany",
+    "lat": 52.52,
+    "lon": 13.405
+  },
+  "current": {
+    "last_updated": "2026-10-29 13:00",
+    "temp_c": 9.0,
+    "temp_f": 48.2,
+    "humidity": 70,
+    "wind_kph": 11.0,
+    "pressure_mb": 1008.0
+  }
+}
