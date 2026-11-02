@@ -15,8 +15,8 @@ public class BankProductContractTest {
     static Stream<BaseBankProduct> allProducts() {
         return Stream.of(
                 BankProductFixtures.debitCardRUB(),
-                BankProductFixtures.creditCardRUB(),
-                BankProductFixtures.depositRUB()
+                BankProductFixtures.creditCardUSD(),
+                BankProductFixtures.depositEUR()
         );
     }
 

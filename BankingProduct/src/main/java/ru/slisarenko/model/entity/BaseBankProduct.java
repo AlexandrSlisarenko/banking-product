@@ -44,7 +44,7 @@ public abstract class BaseBankProduct {
         this.isClosed = true;
     }
 
-    public void validateAmount(BigDecimal amount) {
+    protected void validateAmount(BigDecimal amount) {
         if (amount == null) {
             throw new IllegalArgumentException("amount must not be null");
         }
@@ -58,8 +58,4 @@ public abstract class BaseBankProduct {
             throw new IllegalStateException("Product is closed: " + this.name);
         }
     }
-
-
-
-
 }

@@ -20,13 +20,13 @@ public class CreditCardTest {
 
     @BeforeEach
     void setUp() {
-        card = BankProductFixtures.creditCardRUB();
+        card = BankProductFixtures.creditCardUSD();
     }
 
     @Test
     @DisplayName("процентная ставка доступна через геттер")
     void exposesInterestRate() {
-        BigDecimal expected = new BigDecimal("0.14");
+        BigDecimal expected = BigDecimal.valueOf(14);
         assertEquals(expected, card.getInterestRate());
     }
 
@@ -48,7 +48,7 @@ public class CreditCardTest {
             card.withdraw(new BigDecimal("800.00"));
 
             assertEquals("200.00", card.getBalance().toString());
-            assertEquals("112.00", card.getDebtPercent().toString());
+            assertEquals("112.00", card.getBalancePercent().toString());
         }
     }
 

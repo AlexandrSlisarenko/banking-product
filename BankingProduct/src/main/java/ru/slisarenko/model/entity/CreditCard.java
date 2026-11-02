@@ -5,9 +5,10 @@ import java.math.RoundingMode;
 import java.util.Currency;
 import lombok.Getter;
 import ru.slisarenko.model.exceptions.CreditRestrictionException;
+import ru.slisarenko.model.interfaces.BalanceInquirable;
 
 @Getter
-public class CreditCard extends Card{
+public class CreditCard extends Card implements BalanceInquirable {
     private final BigDecimal interestRate;
     private final BigDecimal startBalance;
 
@@ -16,6 +17,9 @@ public class CreditCard extends Card{
         if (interestRate == null || interestRate.signum() < 0) {
             throw new CreditRestrictionException("interestRate must be >= 0");
         }
+        if (startBalance == null || startBalance.signum() < 0) {
+            throw new CreditRestrictionException("startBalance must be > 0");
+        }
         this.interestRate = interestRate;
         this.startBalance = startBalance;
         incrementBalance(startBalance);
@@ -23,12 +27,12 @@ public class CreditCard extends Card{
 
     public void deposit(BigDecimal amount) {
         validateAmount(amount);
-        BigDecimal dept = getDebtPercent();
+        BigDecimal dept = getBalancePercent();
         if (amount.compareTo(dept) < 0) {
             throw new CreditRestrictionException("minimum payment must be no less than " + dept);
         }
 
-        BigDecimal remainingAmount = amount.subtract(getDebtPercent());
+        BigDecimal remainingAmount = amount.subtract(getBalancePercent());
 
         if (startBalance.compareTo(getBalance().add(remainingAmount)) < 0) {
             throw new IllegalArgumentException("balance plus remainingAmount greater than startBalance");
@@ -37,8 +41,10 @@ public class CreditCard extends Card{
         }
     }
 
-    public BigDecimal getDebtPercent() {
-        return (startBalance.subtract(getBalance()).multiply(interestRate)).setScale(2, RoundingMode.HALF_UP);
+    @Override
+    public BigDecimal getBalancePercent() {
+        BigDecimal percent = (startBalance.subtract(getBalance()).multiply(interestRate)).setScale(2, RoundingMode.HALF_UP);
+        return percent.divide(BigDecimal.valueOf(100), 2, RoundingMode.HALF_UP);
     }
 
 
