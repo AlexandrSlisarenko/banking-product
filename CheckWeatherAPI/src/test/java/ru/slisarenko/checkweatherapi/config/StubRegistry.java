@@ -7,15 +7,15 @@ import static com.github.tomakehurst.wiremock.client.WireMock.get;
 import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
 import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
 
-public class StubRegistry {
-    private StubRegistry() {}
+public abstract class StubRegistry {
+
 
     public static void registerAll(WireMockServer server) {
         // ---------- ПОЗИТИВНЫЕ СТАБЫ ----------
-        stubCity(server, "London", "london.json");
-        stubCity(server, "Moscow", "moscow.json");
+        stubCity(server, "London", "minskBody.json");
+        stubCity(server, "Moscow", "moscowBody.json");
         stubCity(server, "Berlin", "berlin.json");
-        stubCity(server, "Paris", "paris.json");
+        stubCity(server, "Paris", "kurskBody.json");
 
         // ---------- НЕГАТИВНЫЕ СТАБЫ ----------
         stubError(server, "bad-key-1002", 401, "error_1002.json");

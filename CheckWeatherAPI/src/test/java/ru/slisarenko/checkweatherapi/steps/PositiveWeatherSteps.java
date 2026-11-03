@@ -5,7 +5,6 @@ import ru.slisarenko.checkweatherapi.config.WireMockConfig;
 import ru.slisarenko.checkweatherapi.model.CurrentWeatherResponse;
 import ru.slisarenko.checkweatherapi.util.WeatherComparator;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -67,10 +66,10 @@ public class PositiveWeatherSteps {
 
     private CurrentWeatherResponse readExpected(String city) throws Exception {
         String file = switch (city) {
-            case "London" -> "/wiremock/__files/london.json";
-            case "Moscow" -> "/wiremock/__files/moscow.json";
+            case "London" -> "/wiremock/__files/minskBody.json";
+            case "Moscow" -> "/wiremock/__files/moscowBody.json";
             case "Berlin" -> "/wiremock/__files/berlin.json";
-            case "Paris"  -> "/wiremock/__files/paris.json";
+            case "Paris"  -> "/wiremock/__files/kurskBody.json";
             default -> throw new IllegalArgumentException("Нет эталона для " + city);
         };
         try (InputStream is = getClass().getResourceAsStream(file)) {

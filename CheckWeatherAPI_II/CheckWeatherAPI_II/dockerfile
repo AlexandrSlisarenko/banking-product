@@ -1,0 +1,14 @@
+FROM gradle:8.10.2-jdk21
+
+WORKDIR /app
+
+# Сначала только build-файлы — используем кэш слоёв
+COPY build.gradle.kts settings.gradle.kts ./
+COPY gradle ./gradle
+COPY gradlew ./
+
+# Затем исходники
+COPY src ./src
+
+# Запускаем тесты (Gradle из образа, wrapper не нужен)
+CMD ["gradle", "clean", "test", "--no-daemon", "--stacktrace"]

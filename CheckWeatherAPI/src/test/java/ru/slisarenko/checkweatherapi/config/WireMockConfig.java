@@ -29,10 +29,6 @@ public class WireMockConfig {
     }
 
     private static void loadDefaultStubs(WireMockServer s) {
-        // Здесь регистрируются стабы из src/test/resources/wiremock/mappings
-        // через программный DSL, чтобы не зависеть от classpath-сканирования.
-        // Сами тела ответов лежат в __files и читаются ниже.
-        // (см. StubRegistry)
         StubRegistry.registerAll(s);
     }
 

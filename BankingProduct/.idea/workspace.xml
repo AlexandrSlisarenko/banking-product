@@ -4,32 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1970f3-b681-4ded-b5d3-a6f1ced5b1ac" name="Changes" comment="StartProject">
+    <list default="true" id="7f1970f3-b681-4ded-b5d3-a6f1ced5b1ac" name="Changes" comment="update">
       <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/client/WeatherApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/StubRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/WireMockConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/model/ApiErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/model/CurrentWeatherResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/steps/NegativeWeatherSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/steps/PositiveWeatherSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/tests/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/util/WeatherComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/features/negative_weather.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/features/positive_weather.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/berlin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_1002.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_1003.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_1006.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/error_2007.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/london.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/moscow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/paris.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/londonHeaders.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CheckWeatherAPI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/StubRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/StubRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/WireMockConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/config/WireMockConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/steps/PositiveWeatherSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/java/ru/slisarenko/checkweatherapi/steps/PositiveWeatherSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/london.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CheckWeatherAPI/src/test/resources/wiremock/__files/londonBody.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +22,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Exception" />
+        <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AlexandrSlisarenko"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlexandrSlisarenko&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AlexandrSlisarenko/banking-product.git",
-    "accountId": "66795547-2565-41ee-9416-c00017dbb20c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlexandrSlisarenko/banking-product.git&quot;,
+    &quot;accountId&quot;: &quot;66795547-2565-41ee-9416-c00017dbb20c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3LKaymEuLYfwoDghTkHfR5l7Uw4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -72,7 +57,7 @@
   "keyToString": {
     "JUnit.BankProductContractTest.executor": "Run",
     "JUnit.CreditCardTest$DepositOperations.partialRepayment.executor": "Debug",
-    "JUnit.CreditCardTest$DepositOperations.repaysDebtFirst.executor": "Debug",
+    "JUnit.CreditCardTest$DepositOperations.repaysDebtFirst.executor": "Run",
     "JUnit.CreditCardTest$WithdrawOperations.withinBalanceNoDebt.executor": "Run",
     "JUnit.CreditCardTest.executor": "Run",
     "JUnit.DebitCardTest$DepositOperations.executor": "Run",
@@ -80,6 +65,7 @@
     "JUnit.DebitCardTest.executor": "Run",
     "JUnit.DebitCardTest.rejectsInvalidName.executor": "Run",
     "JUnit.DepositTest.executor": "Run",
+    "JUnit.FixPercentDepositTest.checkSumWithPercent.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.BankingProduct [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -94,7 +80,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BankProductContractTest">
+  <component name="RunManager" selected="JUnit.CreditCardTest">
     <configuration name="BankProductContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankingProduct" />
       <extension name="coverage">
@@ -110,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardTest$DepositOperations.partialRepayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest$DepositOperations.repaysDebtFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankingProduct" />
       <extension name="coverage">
         <pattern>
@@ -120,23 +106,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.slisarenko.tests.CreditCardTest" />
       <option name="MAIN_CLASS_NAME" value="ru.slisarenko.tests.CreditCardTest$DepositOperations" />
-      <option name="METHOD_NAME" value="partialRepayment(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCardTest$WithdrawOperations.withinBalanceNoDebt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BankingProduct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.slisarenko.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.slisarenko.tests.CreditCardTest" />
-      <option name="MAIN_CLASS_NAME" value="ru.slisarenko.tests.CreditCardTest$WithdrawOperations" />
-      <option name="METHOD_NAME" value="withinBalanceNoDebt" />
+      <option name="METHOD_NAME" value="repaysDebtFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FixPercentDepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankingProduct" />
       <extension name="coverage">
         <pattern>
@@ -166,19 +136,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.slisarenko.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.slisarenko.tests.DepositTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.slisarenko.tests.FixPercentDepositTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixPercentDepositTest.checkSumWithPercent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankingProduct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.slisarenko.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.slisarenko.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.slisarenko.tests.FixPercentDepositTest" />
+      <option name="METHOD_NAME" value="checkSumWithPercent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankProductContractTest" />
-        <item itemvalue="JUnit.DepositTest" />
         <item itemvalue="JUnit.CreditCardTest" />
-        <item itemvalue="JUnit.CreditCardTest$WithdrawOperations.withinBalanceNoDebt" />
-        <item itemvalue="JUnit.CreditCardTest$DepositOperations.partialRepayment" />
+        <item itemvalue="JUnit.FixPercentDepositTest.checkSumWithPercent" />
+        <item itemvalue="JUnit.CreditCardTest$DepositOperations.repaysDebtFirst" />
+        <item itemvalue="JUnit.BankProductContractTest" />
+        <item itemvalue="JUnit.FixPercentDepositTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +183,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793205472288</updated>
-      <workItem from="1793205473259" duration="19914000" />
+      <workItem from="1793205473259" duration="20826000" />
+      <workItem from="1793622251486" duration="11892000" />
     </task>
     <task id="LOCAL-00001" summary="StartProject">
       <option name="closed" value="true" />
@@ -207,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793223007195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1793641853829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1793641853829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="StartProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="StartProject" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,8 +223,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/slisarenko/model/entity/CreditCard.java</url>
-          <line>24</line>
+          <line>28</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/slisarenko/model/NamesProduct.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
